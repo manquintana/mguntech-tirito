@@ -1,38 +1,39 @@
 <html>
    <head>
       <link rel="stylesheet" href="estilo.css">
-      <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
    </head>
    
    
    <body onload="draw();">
       <div style="width:630; float: left; display:block">
-      <canvas id="canvas" width="630" height="641" onclick="Disparar()" crossorigin="anonymous"></canvas>
-	  </div>	  
+         <canvas id="canvas" width="630" height="641" onclick="Disparar()" crossorigin="anonymous"></canvas>
+	   </div>	  
 	  
 	  
       
-	  <div style="display:none;">
+      <div style="display:none;">
          <audio id="audio" src="disparo_1.mp3" autoplay="false" ></audio>
          <img id="blanco" src="Blanco_Internacional_vacio.png" width="630" height="641">     
          <img id="bala1" src="bala1.png" width="33" height="30">     
          <img id="bala2" src="bala2.png" width="33" height="30">     
          <img id="bala3" src="bala3.png" width="33" height="30">
       </div>
-	  
-      <div id="div_Contenedor" style="width:500; text-align:left; float: right;">
-		
-         
+      
+      <div id="div_Contenedor">
          <div style="clear:both">
-			
-			<div class ="titulo" >
-				<img src="logo-tirito.png" />
-			</div>
-			
-            <div>
+            <!-- imagen tirito -->
+            <div class ="titulo" >
+               <img src="logo-tirito.png" />
+            </div>
+            <hr>
+            <!-- fin imagen -->
+            <!-- forms de nombre y país -->
+            <div class="forms">
+               <p><strong>Nombre:</strong></p>
                <input id="txt_nombre" placeholder="Escriba su nombre"/>
             </div>
-            <div>
+            <div class="forms">
+               <p><strong>País:</strong></p>
                <select id="cbo_pais">
                   <option value=''>Seleccione su pais</option>
                   <option value='AFG'>Afghanistan</option>
@@ -293,18 +294,21 @@
                   <option value='ZWE'>Zimbabwe</option>
                </select>
             </div>
+            <!-- fin forms nombre y país -->
          </div>
-         <div style="clear:both">
-            <img src="img_balas.png" width="100" style="vertical-align: bottom;"><span id="ContadorBalas" style="font-size:60px"></span>
+         <div style="clear:both;">
+            <img src="img_balas.png" width="100" style="vertical-align: bottom;"><span id="ContadorBalas" style="font-size:60px;"></span>
+         </div>
+         <div class="botones">
+            <a class="btn_Nuevo" onclick="Nuevo();">Nuevo Blanco</a>
+            <a id="div_Botones" ></a>
          </div>
          
-         <div style="clear:both">
-            <a class="btn_Nuevo" onclick="Nuevo();">Nuevo Blanco</a>
-         </div>
-		 <div id="div_Botones" style="text-align:left; padding-bottom:20px; margin-top:20px;"></div>
       </div>
+      
    </body>
 </html>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
    var img = new Image();   // Create new img element

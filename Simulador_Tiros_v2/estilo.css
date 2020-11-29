@@ -1,9 +1,36 @@
 	#canvas {cursor: crosshair;}
 
+body {
+	background-color: #5F9EA0;
+}
+
+
 #div_Contenedor{
 	display:block;
-	background-color:#000;
+	background-color:#00FFFF;
+	width:600; 
+	height:640; 
+	text-align:left; 
+	float: right;
 }	
+
+#div_Contenedor input {
+	width: 75%;
+	border: 2px solid red;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box
+}
+#div_Contenedor select {
+	width: 75%;
+	border: 2px solid red;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box
+}
+
 .btn_Guardar {
 	background-color:#44c767;
 	border-radius:28px;
@@ -23,6 +50,12 @@
 .btn_Guardar:active {
 	position:relative;
 	top:1px;
+}
+
+.botones {
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 95px;
 }
 
 .btn_Recargar {
@@ -70,10 +103,29 @@
 }
 
 #txt_nombre {
-	font-size: 22px;
+	font-size: 18px;
+	margin: 0;
 }
 
+
 #cbo_pais {
-	margin-top: 10px;	
-	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 50px;	
+
+	font-size: 18px;
 }
+
+/* .custom-select {
+	position: relative;
+	font-family: Arial;
+} */
+
+.titulo  {
+	display: block;
+	align-self: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
