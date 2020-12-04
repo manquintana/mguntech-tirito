@@ -1,0 +1,152 @@
+	#canvas {cursor: crosshair;}
+
+body {
+	background-color: #84d0ea;
+}
+
+p{
+	font-family:Arial;
+	font-size:20px;
+}
+.footer p{
+	font-family:Arial;
+	font-size:20px;
+	text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  
+  margin:auto;
+  height: 3rem;            /* Footer height */
+}
+
+#div_Contenedor{
+	display:block;
+	background-color:#84d0ea;
+	/*background-color:green;*/
+	/*width:550;*/
+	height:640; 
+	text-align:left; 
+	float: left;
+	margin-left:30;
+	/*margin-right: 35%;*/
+}	
+
+#div_Contenedor input {
+	width: 75%;
+	border: 2px solid;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box
+}
+#div_Contenedor select {
+	width: 75%;
+	border: 2px solid;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box
+}
+
+.btn_Guardar {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn_Guardar:hover {
+	background-color:#5cbf2a;
+}
+.btn_Guardar:active {
+	position:relative;
+	top:1px;
+}
+
+.botones {
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 55px;
+}
+
+.btn_Recargar {
+	background-color:#c5c744;
+	border-radius:28px;
+	border:1px solid #a9ab18;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #666427;
+	margin-top:20px;
+}
+.btn_Recargar:hover {
+	background-color:#767726;
+}
+.btn_Recargar:active {
+	position:relative;
+	top:1px;
+}
+
+.btn_Nuevo {
+	background-color:#446cc7;
+	border-radius:28px;
+	border:1px solid #1838ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #273266;
+	margin-top:20px;
+}
+.btn_Nuevo:hover {
+	background-color:#263477;
+}
+.btn_Nuevo:active {
+	position:relative;
+	top:1px;
+}
+
+#txt_nombre {
+	font-size: 18px;
+	margin: 0;
+}
+
+
+#cbo_pais {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 50px;	
+
+	font-size: 18px;
+}
+
+/* .custom-select {
+	position: relative;
+	font-family: Arial;
+} */
+
+.titulo  {
+	display: block;
+	align-self: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
