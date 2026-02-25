@@ -1,4 +1,4 @@
-**Setup and usage**
+#Setup and usage
 
 1. Start the Mongo server
 > Run in Docker: mongo:latest
@@ -29,3 +29,4 @@
 9. Once sufficient data is collected, run Reconocer_Balas_v3
 
 10. Run Tableau
+
