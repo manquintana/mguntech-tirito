@@ -1,34 +1,43 @@
-#Setup and usage
+# tirito
 
-1. Start the Mongo server
-> Run in Docker: mongo:latest
+"tirito" was developed as the final project for the Data Science Diploma at UADE in 2020. It is an image recognizer programmed in Python which detects the impacts made on an "International shooting target", consuming the input through a live streaming process that involves multiple technologies.
 
-2. Start the local MySQL server
+## Architecture Diagram
 
-3. Start the Node server
-> node-api > node index.js
+![Architecture Diagram](images/architecture-diagram.jpg)
+---
+## Setup and Usage
 
-4. If using windows --> Disable Windows Firewall
+1. **Start the Mongo server**
+   > Run in Docker: `mongo:latest`
 
-5. Run Kafka
-> VirtualBox > Linux VM vm_ubuntu_kafka
-> Run the Docker container with the Kafka configuration
-> Run the consumer
-> Run the publisher
+2. **Start the local MySQL server**
 
-6. Run the React Native project
-> reactnative-fps > expo start
-- Open Android Studio and launch the simulator
+3. **Start the Node server**
+   > `node-api > node index.js`
 
-7. Run the web project "Simulador_Tiros_v2" locally or via the internet
-> Path: c:\wamp\www\tirito
-> Access: localhost:8080
+4. **If using Windows → Disable Windows Firewall**
 
-8. Perform test shots from the mobile app and from the web
+5. **Run Kafka**
+   > VirtualBox → Linux VM `vm_ubuntu_kafka`  
+   > Run the Docker container with the Kafka configuration  
+   > Run the consumer  
+   > Run the publisher  
 
-9. Once sufficient data is collected, run Reconocer_Balas_v3
+6. **Run the React Native project**
+   > `reactnative-fps > expo start`  
+   - Open Android Studio and launch the simulator
 
-10. Run Tableau
+7. **Run the web project "Simulador_Tiros_v2"**
+   > Path: `c:\wamp\www\tirito`  
+   > Access: `http://localhost:8080`
 
+8. **Perform test shots**
+   - From the mobile app  
+   - From the web  
 
+9. **Once sufficient data is collected**
+   > Run `Reconocer_Balas_v3`
+
+10. **Run Tableau**
 
