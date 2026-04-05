@@ -1,11 +1,12 @@
-# tirito
+# tirito  :dart:
 
-"tirito" was developed as the final project for the Data Science Diploma at UADE in 2020. It is an image recognizer programmed in Python which detects the impacts made on an "International shooting target", consuming the input through a live streaming process that involves multiple technologies.
+"tirito" was developed as the final project for the Data Science Diploma at UADE (Universidad Argentina de la Empresa) in 2020. It is an image recognizer programmed in Python which detects the impacts made on an "International shooting target", consuming the input through a live streaming process that involves multiple technologies.
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/architecture-diagram.jpg)
----
+<img src="Architecture diagram.jpg" />
+
+
 ## Setup and Usage
 
 1. **Start the Mongo server**
@@ -41,3 +42,5 @@
 
 10. **Run Tableau**
 
+## Image recognition example
+<img src="Reconocer_Balas_v3/img_analizadas/Blanco_Internacional_Salida_20201116172313.png" />
